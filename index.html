@@ -124,5 +124,66 @@
 <!--- End Call to action -->
 
 
+<!-- Start BMI Calculator Section -->
+ <section id="bmi">
+    <div class="container">
+        <div class="bmi_container d-flex jcsb">
+            <div class="bmi_chart">
+                <h3>BMI Calculator Chart</h3>
+                <table>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>30.0 - and Above</td>
+                    </tr>
+                    <tr>
+                        <td>Underweight</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>Overweight</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bmi_calculator">
+                <h3>Calculate your BMI</h3>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+
+                <form id="bmi_form">
+                    <div class="input_group d-flex aic g-10">
+                        <input type="number" placeholder="Height/CM">
+                        <input type="number" placeholder="Weight/KG">
+                    </div>
+
+                    <div class="input_group d-flex aic g-10">
+                        <input type="number" placeholder="Age">
+                        <select>
+                            <option selected value="Sex">Sex</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="input_group">
+                        <select class="activity">
+                            <option selected value="activity">Select an activity factor</option>
+                        </select>
+                    </div>
+                    <input type="button" value="Calculate">
+                </form>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- End BMI Calculator Section -->
+
 </body>
 </html>

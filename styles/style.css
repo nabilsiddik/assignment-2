@@ -254,3 +254,76 @@ h3{
     border-radius: 20px;
 }
 /** End Call to action section **/
+
+
+/** Start BMI Section **/
+#bmi{
+    background: #222222;
+    padding: 50px 0;
+}
+#bmi .bmi_container table{
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+#bmi .bmi_container table tr th{
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+}
+#bmi .bmi_container table tr td{
+    color: rgba(255, 255, 255, 0.5);
+}
+#bmi .bmi_container table tr th,td{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+
+#bmi .bmi_container .bmi_calculator{
+    width: 60%;
+}
+#bmi .bmi_container .bmi_chart{
+    width: 40%;
+}
+
+#bmi .bmi_container .bmi_calculator input[type="number"], select{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    width: 50%;
+}
+#bmi .bmi_container .bmi_calculator input[type="number"]::placeholder{ 
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+#bmi .bmi_container .bmi_calculator input[type="number"], select:focus{
+    outline: none;
+}
+#bmi .bmi_container .bmi_calculator select{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+#bmi .bmi_container .bmi_calculator select.activity{
+    width: 100%;
+}
+#bmi .bmi_container .bmi_calculator option{
+    color: #252525;
+}
+#bmi .bmi_container .bmi_calculator .input_group{
+    margin-bottom: 10px;
+}
+#bmi .bmi_container .bmi_calculator p{
+    padding-right: 100px;
+    margin: 20px 0;
+}
+#bmi .bmi_container .bmi_calculator input[type="button"]{
+    padding: 16px 60px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/** End BMI Section **/
