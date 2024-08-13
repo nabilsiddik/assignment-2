@@ -261,15 +261,20 @@ h3{
     background: #222222;
     padding: 50px 0;
 }
+#bmi .bmi_container{
+    gap: 150px;
+}
 #bmi .bmi_container table{
     border-collapse: collapse;
     margin-top: 30px;
+    width: 100%;
 }
 #bmi .bmi_container table tr th{
     text-align: left;
     font-size: 16px;
     color: #fff;
 }
+
 #bmi .bmi_container table tr td{
     color: rgba(255, 255, 255, 0.5);
 }
