@@ -1,0 +1,187 @@
+/** Font Family **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/** Variables **/
+:root{
+    --primary-color: #E6533C;
+}
+
+/** Resets **/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #000;
+}
+p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.buttons button{
+    padding: 16px 40px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+.buttons button.download{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+/** Global Styles **/
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.g-5{
+    gap: 5px
+}
+.g-10{
+    gap: 10px;
+}
+.g-20{
+    gap: 20px;
+}
+.g-30{
+    gap: 30px;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4{
+    color: #fff;
+}
+h1{
+    font-size: 78px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 28px;
+}
+
+/** Start Header Section **/
+#header{
+    height: 715px;
+}
+/** Main Header **/
+#header #main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+#header #main_header .logo h2{
+    font-size: 36px;
+    color: var(--primary-color)
+}
+#header #main_header .menu ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+#header #main_header .menu ul li{
+    padding: 10px 20px;
+}
+#header #main_header .menu ul li.active{
+    background: var(--primary-color);
+    border-radius: 30px;
+}
+#header .mobile_menu .mobile_menu_icon{
+    color: #fff;
+    font-size: 30px;
+}
+#header .mobile_menu{
+    display: none;
+    cursor: pointer;
+}
+#header #main_header ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+
+/** Banner Section **/
+#header #banner .banner_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header #banner .banner_container .banner_texts{
+    width: 50%;
+}
+#header .banner_container .banner_texts p{
+    margin: 28px 0;
+}
+
+#header #banner .banner_container .banner_texts h1{
+    line-height: 120%;
+}
+
+#header #banner .banner_container .banner_image{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+#header #banner .banner_container .banner_image .info-card-1{
+    position: absolute;
+    top: 149px;
+    right: -65px;
+}
+#header #banner .banner_container .banner_image .info-card-2{
+    position: absolute;
+    bottom: 73px;
+    left: 60px;
+}
+#header #banner .banner_container .banner_image .info-card-1, #header #banner .banner_container .banner_image .info-card-2{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 13px 24px;
+    border-radius: 10px;
+}
+#header #banner .banner_container .banner_image .info-card-1 h2{
+    font-size: 40px;
+}
+#header #banner .banner_container .banner_image .info-card-2 h2{
+    font-size: 24px;
+}
+
+#header #banner .banner_container .banner_image .info-card-2 .icon{
+    font-size: 30px;
+    color: var(--primary-color)
+}
+/** End Header Section **/

@@ -1,0 +1,54 @@
+/** Mobile Device **/
+@media only screen and (max-width: 576px) {
+    /** Main Header Responsive **/
+    #header #main_header .menu{
+        display: none;
+    }
+
+    /** Banner **/
+    #header #banner .banner_container{
+        display: block;
+    }
+    #header #banner .banner_container .banner_texts, #header #banner .banner_container .banner_image{
+        width: 100%;
+    }
+    #header #banner .banner_container .banner_image{
+        display: block;
+    }
+    #header #banner .banner_container .banner_image img{
+        display: block;
+        margin: 0 auto;
+    }
+    #banner br{
+        display: none;
+    }
+    #header #banner .banner_container .banner_texts h1{
+        font-size: 36px;
+    }
+    #header #banner .banner_container .banner_image .info-card-1 h2{
+        font-size: 25px;
+    }
+    #header #banner .banner_container .banner_image .info-card-1 {
+        position: absolute;
+        top: 74px;
+        right: 10px;
+    }
+    #header #banner .banner_container .banner_image .info-card-2 h2{
+        font-size: 20px;
+    }
+    #header #banner .banner_container .banner_image .info-card-2 {
+        position: absolute;
+        bottom: 241px;
+        left: 60px;
+    }
+    #header #banner .banner_container .banner_image .info-card-1, #header #banner .banner_container .banner_image .info-card-2{
+        padding: 13px 20px;
+    }
+    .buttons button {
+        padding: 14px 25px;
+        font-size: 16px;
+    }
+    #header .mobile_menu{
+        display: block;
+    }
+}
