@@ -51,6 +51,21 @@ ul li{
 }
 
 /** Global Styles **/
+section{
+    margin: 60px 0;
+}
+.section_header{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.section_header h2{
+    margin-bottom: 15px;
+}
+.section_header p{
+    width: 670px;
+    margin: 0 auto;
+}
+
 .d-block{
     display: block;
 }
@@ -93,9 +108,7 @@ h3{
 }
 
 /** Start Header Section **/
-#header{
-    height: 715px;
-}
+
 /** Main Header **/
 #header #main_header{
     display: flex;
@@ -185,3 +198,21 @@ h3{
     color: var(--primary-color)
 }
 /** End Header Section **/
+
+
+
+/** Start Habits Section **/
+#habits .single_habit{
+    text-align: center;
+}
+#habits .single_habit img{
+    border-radius: 50%;
+}
+#habits .single_habit h3{
+    margin: 30px 0 5px 0;
+}
+#habits .section_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
