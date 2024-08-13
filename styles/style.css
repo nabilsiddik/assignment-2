@@ -32,6 +32,14 @@ a{
 ul li{
     list-style-type: none;
 }
+button{
+    padding: 16px 40px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
 .buttons{
     display: flex;
     align-items: center;
@@ -77,6 +85,15 @@ section{
 }
 .jcc{
     justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcsa{
+    justify-content: space-around;
+}
+.jcse{
+    justify-content: space-evenly;
 }
 .g-5{
     gap: 5px
@@ -216,3 +233,24 @@ h3{
     align-items: center;
     justify-content: space-between;
 }
+/** Ends Habits Section **/
+
+
+/** Start Call to action section **/
+#cta .cta_container p{
+    margin: 15px 0 30px 0;
+}
+#cta .cta_container button{
+    padding: 12px 50px;
+}
+#cta .cta_container .cta_image img{
+    max-width: 366px;
+    border-radius: 20px;
+}
+#cta .cta_container{
+    gap: 165px;
+    background: #222222;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+/** End Call to action section **/
