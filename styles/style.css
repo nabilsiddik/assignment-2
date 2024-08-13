@@ -62,7 +62,7 @@ section{
     margin-bottom: 15px;
 }
 .section_header p{
-    width: 670px;
+    max-width: 670px;
     margin: 0 auto;
 }
 

@@ -51,4 +51,14 @@
     #header .mobile_menu{
         display: block;
     }
+
+
+
+    /** Habit Section **/
+    #habits .section_content{
+        display: block;
+    }
+    #habits .section_content .single_habit{
+        margin-bottom: 30px;
+    }
 }
