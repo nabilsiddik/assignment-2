@@ -80,6 +80,12 @@ section{
 .d-flex{
     display: flex;
 }
+.fdc{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
 .aic{
     align-items: center;
 }
@@ -94,6 +100,12 @@ section{
 }
 .jcse{
     justify-content: space-evenly;
+}
+.jce{
+    justify-content: end;
+}
+.aie{
+    align-items: end;
 }
 .g-5{
     gap: 5px
@@ -367,3 +379,49 @@ h3{
 
 
 /** End Team sectin **/
+
+
+/** Start footer Section **/
+#footer{
+    margin-top: 50px;
+    background: #222222;
+    padding-top: 50px;
+}
+#footer .row .widget{
+    width: 33.33%
+}
+#footer .row .widget h3{
+    margin-bottom: 20px;
+}
+#footer .row .widget_1 h2{
+    margin-bottom: 12px;
+    font-size: 70px;
+    color: var(--primary-color)
+}
+
+#footer .row .widget ul li{
+    margin-bottom: 10px;
+}
+
+#footer .row .widget ul li:last-child{
+    margin-bottom: 0;
+}
+#footer .row .widget ul li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer .footer_copyright{
+    margin-top: 40px;
+}
+#footer .footer_copyright .row{
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+#footer .footer_copyright .row .copyright_text{
+    text-align: center;
+}
+#footer .footer_copyright .row .copyright_text a{
+    color: #fff;
+    text-decoration: underline;
+}
+/** End footer Section **/
