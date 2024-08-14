@@ -140,13 +140,16 @@ h3{
 }
 
 /** Start Header Section **/
-
+#header{
+    background: linear-gradient(180deg, #292929 0%, rgba(119, 119, 119, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 /** Main Header **/
 #header #main_header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
 }
 #header #main_header .logo h2{
     font-size: 36px;
