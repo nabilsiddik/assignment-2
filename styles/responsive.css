@@ -95,4 +95,19 @@
         margin-bottom: 30px;
     }
 
+
+    /** Team Section **/
+    #team .section_content .row{
+        display: block;
+        margin-bottom: 20px;
+    }
+    #team .section_content .row .team_member{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #team .section_content .row .team_member:last-child{
+        margin-bottom: 0;
+    }
+
+
 }

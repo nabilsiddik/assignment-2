@@ -107,6 +107,9 @@ section{
 .g-30{
     gap: 30px;
 }
+.mb-0{
+    margin-bottom: 0!important;
+}
 .container{
     max-width: 80%;
     margin: 0 auto;
@@ -332,3 +335,35 @@ h3{
     margin-top: 20px;
 }
 /** End BMI Section **/
+
+
+/** Start Team sectin **/
+#team .section_content{
+    background: #222222;
+    padding: 15px;
+    border-radius: 20px;
+}
+#team .section_content .row .team_member{
+    min-height: 272px;
+    width: 33.33%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+#team .section_content .row .team_member h4{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+#team .section_content .row{
+    margin-bottom: 30px;
+}
+
+
+/** End Team sectin **/
