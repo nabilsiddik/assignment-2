@@ -1,7 +1,7 @@
 /** Font Family **/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 /** Variables **/
@@ -63,6 +63,8 @@ section{
     margin: 60px 0;
 }
 .section_header{
+    max-width: 90%;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 58px;
 }
@@ -149,7 +151,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 0px 0;
 }
 #header #main_header .logo h2{
     font-size: 36px;
@@ -197,7 +199,9 @@ h3{
 #header #banner .banner_container .banner_texts h1{
     line-height: 120%;
 }
-
+#header #banner .banner_container .diff_font{
+    font-family: "Grey Qo", cursive;
+}
 #header #banner .banner_container .banner_image{
     width: 50%;
     display: flex;
@@ -248,6 +252,7 @@ h3{
 }
 #habits .section_content{
     display: flex;
+    gap: 30px;
     align-items: center;
     justify-content: space-between;
 }
