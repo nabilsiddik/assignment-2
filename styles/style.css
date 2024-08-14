@@ -428,3 +428,39 @@ h3{
     text-decoration: underline;
 }
 /** End footer Section **/
+
+
+/** Start blog section **/
+#blog .row .single_blog{
+    width: 33.33%;
+    background: #222222;
+    padding: 20px;
+    border-radius: 20px;
+}
+#blog .row .single_blog .blog_image {
+    overflow: hidden;
+}
+#blog .row .single_blog .blog_image img{
+    width: 100%;
+    border-radius: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+#blog .row .single_blog .blog_image:hover img {
+    transform: scale(1.2);
+}
+#blog .row .single_blog .date_and_category{
+    margin: 15px 0;
+}
+#blog .row .single_blog .blog_body h3{
+    cursor: pointer;
+}
+#blog .row .single_blog .blog_body .description{
+    margin: 10px 0 20px 0;
+}
+#blog .row .single_blog .blog_footer button{
+    width: 100%;
+    cursor: pointer;
+}
+
+/** End blog section **/
